@@ -16,6 +16,7 @@ In this guide, we will run Zabbix under the Apache web server. The web server pa
 
 Install Apache/httpd using the yum command below.
 
+
 sudo yum -y install httpd
 After the installation is complete, start the service and enable it to launch every time at system boot.
 
