@@ -54,7 +54,7 @@ Change the values of the configuration as shown below.
  memory_limit = 256M
  post_max_size = 32M
  upload_max_filesize = 16M
- date.timezone = Asia/Jakarta
+ date.timezone = USA/New_York
 Save and exit.
 
 
@@ -154,7 +154,10 @@ systemctl enable zabbix-server
 Zabbix-server is running on the CentOS 7 system - check it using the command below.
 
 systemctl status zabbix-server
-And you will get the result as shown below.
+And you will get the result as shown below. 
+(if it shows auto restart, then disable your selinux)
+or use setsebool -P zabbix_can_network=1
+or setenforce 0
 
 Configure zabbix server
 
