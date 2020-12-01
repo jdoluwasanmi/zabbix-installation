@@ -54,7 +54,7 @@ Change the values of the configuration as shown below.
  memory_limit = 256M
  post_max_size = 32M
  upload_max_filesize = 16M
- date.timezone = USA/New_York
+ date.timezone = America/New_York
 Save and exit.
 
 
