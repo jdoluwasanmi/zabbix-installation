@@ -278,3 +278,6 @@ Change Default Admin Password
 
 Click the 'Change Password' button and type your new password.
 
+
+follow this link to finish the back end configuration:
+https://www.youtube.com/watch?v=rjYQLpeZGOs
